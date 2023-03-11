@@ -1,6 +1,6 @@
 # SpringMicroservices
 
-
+ The goal of the project is to ensure user security and enable communication between microservices
 
 
 ## Prerequisites
