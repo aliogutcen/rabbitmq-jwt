@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+spring:
+  rabbitmq:
+    port: 5672
+    username: user
+    password: password
+    host: localhost
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: ${StockControlUserDb}
+    username: ${UsernamePostgres}
+    password: ${PasswordPostgres}
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
