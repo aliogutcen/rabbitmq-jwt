@@ -1,6 +1,6 @@
 rootProject.name = 'stockcontrolapp'
 include 'AuthMicroServices'
 include 'UserMicroServices'
-include 'ConfigServer'
 include 'MailMicroServices'
+include 'ConfigServerGit'
 
