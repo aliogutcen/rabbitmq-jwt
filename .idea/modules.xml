@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AuthMicroServices/stockcontrolapp.AuthMicroServices.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AuthMicroServices/stockcontrolapp.AuthMicroServices.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ConfigServer/stockcontrolapp.ConfigServer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ConfigServer/stockcontrolapp.ConfigServer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MailMicroServices/stockcontrolapp.MailMicroServices.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MailMicroServices/stockcontrolapp.MailMicroServices.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UserMicroServices/stockcontrolapp.UserMicroServices.main.iml" filepath="$PROJECT_DIR$/.idea/modules/UserMicroServices/stockcontrolapp.UserMicroServices.main.iml" />
+    </modules>
+  </component>
+</project>
