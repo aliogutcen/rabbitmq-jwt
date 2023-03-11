@@ -1,4 +1,4 @@
-package com.exception;
+package com.ali.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,8 +12,6 @@ import org.springframework.web.method.annotation.MethodArgumentTypeMismatchExcep
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static com.exception.ErrorType.BAD_REQUEST_ERROR;
 
 
 @ControllerAdvice
@@ -37,20 +35,20 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(HttpMessageNotReadableException.class)
     public final ResponseEntity<ErrorMessage> handleMessageNotReadableException(
             HttpMessageNotReadableException exception) {
-        ErrorType errorType = BAD_REQUEST_ERROR;
+        ErrorType errorType = ErrorType.BAD_REQUEST_ERROR;
         return new ResponseEntity<>(createError(errorType, exception), errorType.getHttpStatus());
     }
     @ExceptionHandler(MethodArgumentTypeMismatchException.class)
     public final ResponseEntity<ErrorMessage> handleMethodArgumentMisMatchException(
             MethodArgumentTypeMismatchException exception) {
-        ErrorType errorType = BAD_REQUEST_ERROR;
+        ErrorType errorType = ErrorType.BAD_REQUEST_ERROR;
         return new ResponseEntity<>(createError(errorType, exception), errorType.getHttpStatus());
     }
 
     @ExceptionHandler(MissingPathVariableException.class)
     public final ResponseEntity<ErrorMessage> handleMethodArgumentMisMatchException(
             MissingPathVariableException exception) {
-        ErrorType errorType = BAD_REQUEST_ERROR;
+        ErrorType errorType = ErrorType.BAD_REQUEST_ERROR;
         return new ResponseEntity<>(createError(errorType, exception), errorType.getHttpStatus());
     }
 
@@ -59,7 +57,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public final ResponseEntity<ErrorMessage> handleMethodArgumentNotValidException(
             MethodArgumentNotValidException exception) {
-        ErrorType errorType = BAD_REQUEST_ERROR;
+        ErrorType errorType = ErrorType.BAD_REQUEST_ERROR;
         List<String> fields = new ArrayList<>();
         exception
                 .getBindingResult()

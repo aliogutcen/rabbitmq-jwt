@@ -1,4 +1,4 @@
-package com.exception;
+package com.ali.exception;
 
 import lombok.Getter;
 

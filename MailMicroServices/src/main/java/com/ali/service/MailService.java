@@ -3,15 +3,14 @@ package com.ali.service;
 import com.ali.dto.request.ActivatedCode;
 import com.ali.mapper.IMailMapper;
 import com.ali.rabbitmq.model.MailCreated;
-import com.ali.rabbitmq.model.StatusAfterActivateCode;
 import com.ali.rabbitmq.producer.UserMailProducer;
 import com.ali.repository.IMailRepository;
 import com.ali.repository.entity.Mail;
 import com.ali.repository.enums.EStatus;
 import com.ali.utility.ActivateCodeGenerator;
 import com.ali.utility.ServiceManager;
-import com.exception.ErrorType;
-import com.exception.MailMicroServiceException;
+import com.ali.exception.ErrorType;
+import com.ali.exception.MailMicroServiceException;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
