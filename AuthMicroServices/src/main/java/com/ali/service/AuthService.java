@@ -11,8 +11,8 @@ import com.ali.rabbitmq.producer.UserProducer;
 import com.ali.repository.IAuthRepository;
 import com.ali.repository.entity.Auth;
 import com.ali.repository.enums.EStatus;
-import com.ali.utils.JwtTokenGenerator;
-import com.ali.utils.ServiceManager;
+import com.ali.utility.JwtTokenGenerator;
+import com.ali.utility.ServiceManager;
 import org.springframework.stereotype.Service;
 
 import java.security.NoSuchAlgorithmException;

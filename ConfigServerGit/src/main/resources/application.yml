@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: "${RepoURL}"
+          uri: "https://github.com/aliogutcen/rabbit-config-server.git"
           default-label: main
           skip-ssl-validation: true
           username: aliogutcen

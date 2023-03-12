@@ -10,7 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/AuthMicroServices" />
-            <option value="$PROJECT_DIR$/ConfigServer" />
+            <option value="$PROJECT_DIR$/BlogMicroServices" />
             <option value="$PROJECT_DIR$/ConfigServerGit" />
             <option value="$PROJECT_DIR$/MailMicroServices" />
             <option value="$PROJECT_DIR$/UserMicroServices" />

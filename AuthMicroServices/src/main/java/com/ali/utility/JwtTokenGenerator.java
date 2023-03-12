@@ -1,4 +1,4 @@
-package com.ali.utils;
+package com.ali.utility;
 
 import com.ali.exception.AuthMicroServiceException;
 import com.ali.exception.ErrorType;

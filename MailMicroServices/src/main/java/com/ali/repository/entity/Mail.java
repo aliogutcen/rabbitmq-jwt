@@ -6,8 +6,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 import lombok.experimental.SuperBuilder;
+import org.hibernate.Hibernate;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 @Data
 @SuperBuilder
@@ -26,4 +28,6 @@ public class Mail extends BaseEntity {
     EStatus estatus;
 
     String mail;
+
+
 }

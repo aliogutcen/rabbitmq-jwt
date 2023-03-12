@@ -3,4 +3,5 @@ include 'AuthMicroServices'
 include 'UserMicroServices'
 include 'MailMicroServices'
 include 'ConfigServerGit'
+include 'BlogMicroServices'
 

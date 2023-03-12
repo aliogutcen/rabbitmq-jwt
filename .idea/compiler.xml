@@ -11,9 +11,9 @@
         <module name="stockcontrolapp.main" />
         <module name="stockcontrolapp.AuthMicroServices.main" />
         <module name="stockcontrolapp.MailMicroServices.main" />
+        <module name="stockcontrolapp.BlogMicroServices.main" />
         <module name="stockcontrolapp.ConfigServerGit.main" />
         <module name="stockcontrolapp.UserMicroServices.main" />
-        <module name="stockcontrolapp.ConfigServer.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17" />
